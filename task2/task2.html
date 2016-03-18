@@ -21,8 +21,8 @@
 
 <div id="first";>
 	<article>
-		<h1>文章一级标题</h1>
-		<h2>文章二级标题</h2>
+		<h2>文章一级标题</h2>
+		<h3>文章二级标题</h3>
 			<span>文章作者&nbsp;&nbsp;文章发表时间</span><br/>
 			<p>这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落</p>
 			<p>这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一<a href="http://ife.baidu.com" target="_blank">百度前端学院</a>个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落</p>
@@ -35,8 +35,8 @@
 
 <div id="second">
 	<article>
-		<h1>另一篇文章一级标题</h1>
-		<h2>文章二级标题</h2>
+		<h2>另一篇文章一级标题</h2>
+		<h3>文章二级标题</h3>
 		<span>文章作者&nbsp;&nbsp;文章发表时间</span>
 		<p>这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一</p>
 		<p>这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一<a href="http://ife.baidu.com" target="_blank">百度前端学院</a>这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落</p>
@@ -48,7 +48,7 @@
 </div>
 
 <div id="three">
-	<h1>图片</h1>
+	<h2>图片</h2>
 	<div>
 		<h3 align="center">好看的图片</h3>
 		<img src="task22.jpg">
@@ -84,15 +84,15 @@
 </div>
 
 <div id="four">
-	<h1>最后一篇文章一级标题</h1>
-	<h2>文章二级标题</h2>
+	<h2>最后一篇文章一级标题</h2>
+	<h3>文章二级标题</h3>
 	<span>文章作者&nbsp;&nbsp;文章发表时间</span>
 	<ol>
 		<li>排名1</li>
 		<li>排名2</li>
 		<li>排名3</li>
 	</ol>
-	<table cellpadding="5">
+	<table cellpadding="5" >
 		<thead>
 			<td>表头</td>
 			<td>表头</td>
@@ -120,8 +120,7 @@
 		</tr>
 		<tfoot>
 			<td>总计</td>
-			<td>1000</td>
-			<td></td>
+			<td colspan="2">1000</td>
 		</tfoot>
 	</table>
 </div>
@@ -135,8 +134,8 @@
 	<span class="att">请输入密码</span><input type="password"><br/>
 	<span class="att">请重复输入密码</span><input type="password"><br/>
 	<span class="tips">密码请为6-16位英文数字</span><br/>
-	<span class="att">性别</span><input type="radio" name="sex" value="man"><label for="man">男</label>
-	<input type="radio" name="sex" value="woman"><label for="woman">女</label><br/>
+	<span class="att">性别</span><input type="radio" name="sex" value="man" id="nan"><label for="nan">男</label>
+	<input type="radio" name="sex" value="woman" id="ni"><label for="ni">女</label><br/>
 	<span class="att">城市</span>
 	<select>
 		<option value="北京" selected="selected">北京</option>
@@ -145,17 +144,16 @@
 		<option value="深圳">深圳</option>
 	</select><br/>
 	<span class="att">爱好</span>
-	<input type="checkbox">运动</input>
-	<input type="checkbox">艺术</input>
-	<input type="checkbox">科学</input><br/>
+	<input type="checkbox" id="yundong"><label for="yundong">运动</label>
+	<input type="checkbox" id="yisu"><label for="yisu">艺术</label>
+	<input type="checkbox" id="kexue"><label for="kexue">科学</label><br/>
 	<span class="att spec">个人描述:</span><textarea cols="80" rows="10" value="这是多行输入框"></textarea>
 	</div>
 	<input type="submit" value="确认提交" id="submit">
 	</form>
 	</div>
- 
-<div id="six">
+	<!-- footer -->
 <footer><span>版权所有&copy;Satankill</span></footer>	
-</div>
+
 </body>
 </html>

@@ -1,14 +1,16 @@
-header {height: 60px;background: #333333;width: 100%;}
+header {height: 60px;background: #333;width: 100%;}
 header nav{float: right;}
 header nav ul{margin:20px;}
 header nav ul li{float: left;margin-right: 20px;}
 header nav ul li a{color: white;text-decoration: none;}
 header nav ul li.active a{color: #CCC;}
 body{background: #DEDEDE;font-family: "Microsoft YaHei";margin: 0 auto;}
+li{float: left; }
+a:hover{background-color:#CCC;font-size: 20px;color:#750075;}
 #first,#second,#three,#four,#five{margin: 20px 20px;background: white;border-right: 2px solid #5B5B5B;border-bottom: 2px solid #5B5B5B;}
-#first,#second,#three,#four,#five,#six article{ padding: 20px 40px;}
-#first article h1{ font-size: 30px;margin-left: -30px;}
+#first,#second,#three,#four,#five article{ padding: 20px 40px;}
 #first article h2{ font-size: 30px;margin-left: -30px;}
+#first article h3{ font-size: 30px;margin-left: -30px;}
 #first,#second article p{text-indent: 2em;}
 #first article span{color: #9F9F9F;font-size: 15px;}
 #second article span{color: #9F9F9F;font-size: 15px;}
@@ -20,11 +22,11 @@ body{background: #DEDEDE;font-family: "Microsoft YaHei";margin: 0 auto;}
 #five h2{line-height: 40px; border-left: 3px solid #CCC; padding-left: 15px; }
 #five form input{height: 20px;margin: 10px;vertical-align:middle; font-size: 15px; line-height: 20px }
 #five form label{vertical-align:middle;}
-#five #submit{width: 100%; background: #3355D0;display: block; height: 40px; border: none; color: white; font-size: 18px; line-height: 40px; border-radius:10px; font-weight: bold;}
 #five form div{margin-left: 25%;}
 #five form div span{vertical-align: center; font-size: 16px;}
 #five form .att{line-height: 26px;display: inline-block; height: 26px; width: 150px; text-align: right;}
 #five form .spec{vertical-align: top;}
 #five form textarea{font-size: 18px; line-height: 20px;}
 #five form .tips{margin-left: 160px; margin-bottom: 20px;display: inline-block;color: #9F9F9F; }
+#five #submit{width: 98%; background: #3355D0;display:block; height: 40px; border: none; color: white; font-size: 18px; line-height: 40px; border-radius:10px; font-weight: bold;}
 footer{height: 30px; text-align: center; color: white; background-color: black; padding: 20px;width: 100%;}
