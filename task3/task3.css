@@ -1,0 +1,9 @@
+body{margin: 0 auto;padding: 20px;font-family: "Microsoft YaHei"}
+section{padding: 20px;background-color: #eee;border: 1px solid #999;position: relative;height: 540px;overflow: hidden;}
+.left{ position: absolute;top: 20px;left: 20px; padding: 20px;border: 1px solid #999;width:200px;background-color: white;}
+.left span{vertical-align: top;font-weight: bold;}
+.main{width: auto;padding: 20px; border: 1px solid #999;overflow: auto;
+background-color: white;margin: 0px 180px 0px 260px;}
+.main p{color: green;}
+.right{ position: absolute;top: 20px;right: 20px; padding: 20px;border: 1px solid #999;width: 120px;background-color: white;}
+img{border: 1px solid #999;padding: 20px;}
