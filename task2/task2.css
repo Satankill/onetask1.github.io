@@ -28,5 +28,5 @@ a:hover{background-color:#CCC;font-size: 20px;color:#750075;}
 #five form .spec{vertical-align: top;}
 #five form textarea{font-size: 18px; line-height: 20px;}
 #five form .tips{margin-left: 160px; margin-bottom: 20px;display: inline-block;color: #9F9F9F; }
-#five #submit{width: 98%; background: #3355D0;display:block; height: 40px; border: none; color: white; font-size: 18px; line-height: 40px; border-radius:10px; font-weight: bold;}
+#five #submit{width: 98%; background: #3355D0;display:block; height: 40px;  color: white; font-size: 18px; line-height: 40px; border-radius:8px; font-weight: bolder;}
 footer{height: 30px; text-align: center; color: white; background-color: black; padding: 20px;width: 100%;}
